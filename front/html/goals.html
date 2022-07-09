@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--タイトル-->
+    <title></title>
+    <meta name="description" content="目標管理ページ">
+    <meta charset="utf-8">
+
+    <!--Bootstrap-->
+    <link href="../stylesheet/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<!--以下body文-->
+
+<body>
+    <header>
+    </header>
+
+    <main>
+        <h1>目標を設定しよう</h1>
+        <form action="">
+            <div class="mb-3">
+                <label for="goal1" class="form-label">目標（勉強する理由）</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+
+            <p>期限</p>
+            <input class="form-control" type="date" id="birthday" name="birthday"
+                pattern="([0-2][0-9]{3})\-([0-1][0-9])\-([0-3][0-9]) (0[0-9]|1[0-9]|2[0-3])">
+
+            <br><br>
+            └
+            <div class="mb-3">
+                <label for="goal1" class="form-label">1週間の目標</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+
+            <p>期限</p>
+            <input class="form-control" type="date" id="birthday" name="birthday"
+                pattern="([0-2][0-9]{3})\-([0-1][0-9])\-([0-3][0-9]) (0[0-9]|1[0-9]|2[0-3])">
+
+            <br><br>
+            <button type="button" class="btn btn-primary">目標の追加</button>
+
+        </form>
+
+    </main>
+
+    <!--フッター -->
+    <footer>
+
+    </footer>
+</body>
+
+</html>
