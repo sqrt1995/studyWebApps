@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*================
+ PC用のスタイル 
+=================*/
+/* 横幅設定 */
+body {
+    max-width: 1080px;
+    min-width: 960px;
+    margin: 0 auto 0 auto;
+}
+
+/* ヘッダー */
+header {
+    display: flex;
+}
+
+#pc-nav {
+    display: flex;
+    text-align: right;
+}
+
+a {
+    text-decoration: none;
+}
+
+.sidebar {
+    width: 20%;
+  }
+
+.header-icon {
+    width: 30%;
+    height: 30%;
+}
+
+.login-icon {
+    width: 30%;
+    height: 30%;
+}
+
+.goals-box {
+    border: 3px solid #003059;
+    padding: 25px;
+}
+
+.gragh-box {
+    border: 3px solid #003059;
+    padding: 25px;
+}
+
+.record-box{
+    border: 3px solid #003059;
+    padding: 25px;
+}
