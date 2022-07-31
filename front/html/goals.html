@@ -22,28 +22,28 @@
     </header>
 
     <main>
-        <div id= "goals" class="main-visual">
+        <div id="goals" class="main-visual">
             <form action="">
                 <h2>目標設定</h2>
                 <div class="mb-3" id="goal">
                     <label for="goal1" class="form-label">中・長期目標（1つ）</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    <textarea class="form-control" id="longTermGoal" rows="3"></textarea>
                 </div>
 
                 <p>期限</p>
-                <input class="form-control" type="date" id="birthday" name="birthday"
+                <input class="form-control" type="date" id="deadline" name="deadline"
                     pattern="([0-2][0-9]{3})\-([0-1][0-9])\-([0-3][0-9]) (0[0-9]|1[0-9]|2[0-3])">
                 <br>
 
-                <h3>1週間の目標</h3>
-                <div id = week1 class="row">
+                <h3>1週間の目標(5個まで)</h3>
+                <div id=week1 class="row">
                     <div class="col-sm">
                         <label class="form-label" for="layoutExam2-name">何を</label>
-                        <input type="text" class="form-control" id="layoutExam2-name" name="name">
+                        <input type="text" class="form-control" id="what1" name="what1">
                     </div>
                     <div class="col-sm">
                         <label class="form-label" for="layoutExam2-address">どのくらい</label>
-                        <input type="text" class="form-control" id="layoutExam2-address" name="address">
+                        <input type="text" class="form-control" id="how1" name="how1">
                     </div>
                 </div>
             </form>
@@ -51,16 +51,16 @@
         <br>
         <button type="button" class="btn btn-primary" id="addGolas">追加</button>
 
-        <script src="../js/addGoals.js"></script>
+
         <br>
         <br>
         <div class="d-grid gap-2">
-            <button class="btn btn-primary" type="submit">登録</button>
+            <button class="btn btn-primary" id="submitGoals" type="submit">登録</button>
         </div>
         </form>
         </div>
 
-
+        <script src="../js/addGoals.js"></script>
     </main>
     <!--フッター -->
     <footer>
